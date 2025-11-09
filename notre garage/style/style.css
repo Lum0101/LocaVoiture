@@ -1,0 +1,65 @@
+header {  
+	width: 780px;
+	text-align: center;
+}
+
+body {
+	width: 950px;
+	display: block;
+	margin: auto; 
+	color: black;
+	font: 1rem 'Helvetica', sans-serif;
+	background-color: #645F5E;
+}
+a.bouton1 {
+	padding: 10px 30px; 
+	background: white; 
+	color: black; 
+	font-size: 40px;
+	font: 1rem 'Verdana', sans-serif;
+	margin: 5px;
+}
+a.bouton1:hover {
+	background: black; 
+	color: white
+}
+
+.forecast {
+    margin: 0px;
+    padding: .1rem;
+    background-color: black;
+	color:white;
+	font-size: 10px;
+}
+.forecast > h1
+{
+	padding: 10px 10px; 
+	background: black; 
+	color: white; 
+	font: 1rem 'Verdana', sans-serif;
+	margin: 5px;
+	font-size: 30px;
+	display: online-block
+}
+	
+#fixe
+{
+   position: fixed;
+   width: 950px;
+   height: 130px;
+   top: 0px;
+   bottom: 0px;
+   background-color:#f3ca20;
+   display: inline-block;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
